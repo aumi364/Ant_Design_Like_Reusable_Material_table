@@ -1,4 +1,4 @@
-# Ant design inspired reusbale Material Table
+# Ant design inspired reusabale Material Table
 
 Created a reusable **Table** component inspired from ant design which is fully **Customizable** and accepts all **Props** from material ui **Table**
 
