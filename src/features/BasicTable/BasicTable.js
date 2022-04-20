@@ -13,12 +13,12 @@ const BasicTable = () => {
       columns={columns}
       dataSource={[
         { name: "asif ahmed", id: "1" },
-        { name: "pranto vai", id: "2" },
-        { name: "saqib bhai", id: "3" },
-        { name: "hasnat bhai", id: "4" },
-        { name: "toufiq bhai", id: "5" },
-        { name: "debashish bhai", id: "6" },
-        { name: "binayak dada", id: "7" },
+        { name: "badiuzzaman pranto", id: "2" },
+        { name: "saqibur rahman", id: "3" },
+        { name: "hasnat abdullah", id: "4" },
+        { name: "toufiqur rahman", id: "5" },
+        { name: "debashish ray", id: "6" },
+        { name: "binayak ray", id: "7" },
       ]}
       pagination={{
         pageLimit,
