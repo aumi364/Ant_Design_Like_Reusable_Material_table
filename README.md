@@ -160,7 +160,7 @@ By **config** we can pass any **Props** from material ui to our **Table**.
 
 ### **filterComponent**
 
-| Props     | Type | Description                                    | Return           |
+| Properties     | Type | Description                                    | Return           |
 | :-------- | :--- | :--------------------------------------------- | :--------------- |
 | component | `fn` | Pass any customize component to perform action | Custom component |
 
@@ -175,7 +175,7 @@ By **config** we can pass any **Props** from material ui to our **Table**.
 
 ### **pagination**
 
-| Props            | Type     | Description                         | Return                |
+| Properties             | Type     | Description                         | Return                |
 | :--------------- | :------- | :---------------------------------- | :-------------------- |
 | pageLimit        | `number` | Page Limit of the Table             | -                     |
 | count            | `number` | Total data of the Table             | -                     |
@@ -184,7 +184,7 @@ By **config** we can pass any **Props** from material ui to our **Table**.
 
 ### **config**
 
-| Props          | Type     | Description                                            | Return |
+| Properties           | Type     | Description                                            | Return |
 | :------------- | :------- | :----------------------------------------------------- | :----- |
 | tableContainer | `object` | Passing any `props` from Materai Ui's `TableContainer` | -      |
 | table          | `object` | Passing any `props` from Materai Ui's `Table`          | -      |
