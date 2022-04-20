@@ -2,7 +2,7 @@
 
 Created a reusable **Table** component inspired from ant design which is fully **Customizable** and accepts all **Props** from material ui **Table**
 
-### Preview of table created by this components
+### Preview of table created by this component
 
 ![ss](public/images/ss.png)
 
