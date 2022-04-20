@@ -90,14 +90,16 @@ const CustomTable = ({ loading, dataSource, pagination, columns, config }) => {
         </TableContainer>
       )}
 
-      <TablePagination
-        rowsPerPageOptions={[]}
-        component="div"
-        count={count}
-        rowsPerPage={pageLimit}
-        page={page}
-        onPageChange={handlePageChange}
-      />
+      {pagination && (
+        <TablePagination
+          rowsPerPageOptions={[]}
+          component="div"
+          count={count}
+          rowsPerPage={pageLimit}
+          page={page}
+          onPageChange={handlePageChange}
+        />
+      )}
     </Box>
   );
 };
