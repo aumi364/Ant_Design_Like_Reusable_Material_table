@@ -12,7 +12,7 @@ Created a reusable **Table** component inspired from ant design which is fully *
 
 ### First step - Create a column exacly like we create in ant design.
 
-```
+``` js
 [
     {
       title: "id",
@@ -72,7 +72,7 @@ We can also pass any **Props** provided by **Material UI** to this component.
 
 **Column**
 
-```
+``` js
 [
     {
       title: "id",
@@ -108,7 +108,7 @@ By **configColumn** we can pass any **Props** from material ui to our **TableCel
 
 **Table Component**
 
-```
+``` js
 <Table
       columns={columns}
       dataSource={[
