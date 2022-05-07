@@ -12,7 +12,7 @@ Created a reusable **Table** component inspired from ant design which is fully *
 
 ### First step - Create a column exacly like we create in ant design.
 
-``` js
+``` json
 [
     {
       title: "id",
