@@ -44,7 +44,7 @@ Created a reusable **Table** component inspired from ant design which is fully *
 
 ### Final step - Pass **columns** and **Data** to our component.
 
-```
+```js
  <Table
       columns={columns}
       dataSource={[
